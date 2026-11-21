@@ -1,0 +1,31 @@
+{
+  "name": "obsidian-trisync",
+  "version": "1.0.0",
+  "description": "Fast, tri-directional personal Obsidian sync across macOS, iOS, and Android using Google Drive v3 and Firebase Firestore real-time signals.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "obsidian",
+    "sync",
+    "google-drive",
+    "firebase",
+    "mobile"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^11.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "esbuild": "^0.25.2",
+    "obsidian": "^1.8.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}

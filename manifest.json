@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-trisync",
+  "name": "TriSync",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Fast, tri-directional personal vault sync across macOS, iOS, and Android powered by Google Drive API v3 and Firebase Firestore real-time change signals.",
+  "author": "TriSync",
+  "isDesktopOnly": false
+}
